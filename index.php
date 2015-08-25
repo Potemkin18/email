@@ -1,7 +1,7 @@
 <!doctype>
 <html>
 	<head>
-		<title>Проект</title>
+		<title>РџСЂРѕРµРєС‚</title>
 	</head>
 	<body>	
 		<style>
@@ -24,7 +24,7 @@
 		$email = trim($email);	
 		
 		if (!preg_match("/^(([a-zA-Z0-9_\-.]+)@([a-zA-Z0-9\-]+)\.[a-zA-Z0-9\-.]+$)/", $email)) 
-			return ('не корретный email');
+			return ('РЅРµ РєРѕСЂСЂРµС‚РЅС‹Р№ email');
 		
 		//$date = date('l jS \of F Y h:i:s A');
 		$ip = $_SERVER["REMOTE_ADDR"];
@@ -48,7 +48,7 @@
 	
 		<form action="" method="POST">
 			<input name="email"  class="nik" type="text">
-			<input name="add" type="submit" value="Отправить">
+			<input name="add" type="submit" value="РћС‚РїСЂР°РІРёС‚СЊ">
 		</form>
 	</body>
 </html>
